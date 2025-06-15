@@ -44,7 +44,7 @@ const Home = ({ products, bannerData }: HomeProps) => {
       {/* === MAIN BANNER  */}
       <MainBanner banner={bannerData[0]} />
 
-      <div className="flex justify-between md:mx-20">
+      <div className="flex justify-between md:mx-20 scrollbar-thin">
         <div> </div>
         <select
           className=" outline-none focus:ring-1
